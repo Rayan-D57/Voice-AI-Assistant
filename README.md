@@ -64,7 +64,8 @@ Once the application starts, it will listen for voice input through the micropho
 
 
 
-### Note
+##### Note
+
 The Arabic text may appear as disconnected characters in the terminal due to the local console's Arabic text rendering. This is only a display issue and does not affect the application's functionality.
 ---
 

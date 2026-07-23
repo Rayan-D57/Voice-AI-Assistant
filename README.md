@@ -41,58 +41,28 @@ The main file connects all previous modules together. It manages the application
 
 ---
 
-#  Installation
+# 
 
-### Step 1 – Clone the Repository
-git clone https://github.com/YourUsername/Voice-AI-Assistant.git
-cd Voice-AI-Assistant
+ Installation & Usage
 
----
+To run this project locally, follow these general steps:
 
-### Step 2 – Create a Virtual Environment
-python -m venv .venv
+1. Clone this repository to your local machine.
+2. Install all required Python dependencies.
+3. Install FFmpeg, which is required for audio processing with Whisper.
+4. Create a .env file and add your Cohere API key.
+5. Run the main application.
 
-Activate it.
-
-Windows
-.venv\Scripts\activate
-
-macOS / Linux
-source .venv/bin/activate
-
----
-
-### Step 3 – Install the Required Libraries
-pip install -r requirements.txt
-
----
-
-### Step 4 – Install FFmpeg
-
-Download and install FFmpeg, then add its bin folder to your system PATH.
-
-Verify the installation:
-ffmpeg -version
-
----
-
-### Step 5 – Configure the API Key
-
-Create a .env file and add your Cohere API key.
-COHERE_API_KEY=YOUR_API_KEY
-
----
-
-### Step 6 – Run the Project
+Start the project using:
 python main.py
 
-The assistant will begin listening for voice input. Speak into the microphone, and the assistant will recognize your speech, generate a response, and read it aloud. To stop the application, say "Exit", "Quit", or "خروج".
+Once the application starts, it will listen for voice input through the microphone. The captured speech is converted into text, processed by the AI model, and the generated response is converted back into speech and played to the user. The conversation continues until the user exits the application using one of the supported exit commands.
 
 ---
 
-# 🎥 Project Demonstration
+#  Project Demonstration
 
-> Add your project demonstration video here.
+
 
 
 ---

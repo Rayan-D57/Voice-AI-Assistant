@@ -66,7 +66,7 @@ https://github.com/user-attachments/assets/7d80185f-6412-4533-909f-3f08373845e6
 
 
 
-##### Note: The Arabic text may appear as disconnected characters in the terminal due to the local console's Arabic text rendering. This is only a display issue and does not affect the application's functionality.
+##### Note: The project uses Whisper for speech-to-text. RealtimeSTT was also evaluated, but compatibility issues with some dependency versions were encountered during testing.
 ---
 
 #  Future Improvements
